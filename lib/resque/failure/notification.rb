@@ -60,7 +60,7 @@ module Resque
       # Returns the minimal text notification
       #
       def minimal
-        "#{msg_worker}\n#{msg_payload}"
+        "#{msg_worker}\n"
       end
 
       def format_message(obj)
