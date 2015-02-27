@@ -99,7 +99,6 @@ module Resque
       def text_minimal
         <<-EOF
 #{msg_worker}
-#{msg_payload}
         EOF
       end
 
